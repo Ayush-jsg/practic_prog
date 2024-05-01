@@ -1,0 +1,13 @@
+package collection_prog;
+
+import java.util.Arrays;
+
+public class ArrayTOCollection {
+	public static void main(String[] args) {
+
+		String PlayerArray[] = { "virat", "rohit", "sachin", "bumrah" };
+		System.out.println("Array input :" + Arrays.toString(PlayerArray));
+
+	}
+
+}

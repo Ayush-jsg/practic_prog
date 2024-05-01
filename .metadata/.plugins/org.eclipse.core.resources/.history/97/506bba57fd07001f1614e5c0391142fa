@@ -1,0 +1,18 @@
+package collection_prog;
+
+import java.util.LinkedList;
+
+public class LLDemo2 {
+	public static void main(String[] args) {
+		LinkedList<String> ll = new LinkedList<String>();
+		ll.add("GEEKS");
+		ll.add("FOR");
+		ll.add("GEEKS");
+		ll.add("10");
+		ll.add("20");
+
+		System.out.println("Linkedlist : " + ll);
+		ll.clear();
+		System.out.println("list after clearing all element");
+	}
+}

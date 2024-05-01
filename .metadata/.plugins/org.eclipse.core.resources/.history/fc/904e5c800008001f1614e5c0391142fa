@@ -1,0 +1,29 @@
+package collection_prog;
+//java code to illustrate boolean clear().
+//output: Linkedlist : [GEEKS, FOR, GEEKS, 10, 20]
+        //list after clearing all element : []
+		 //After adding elements to empty list : [GEEKS, FOR, GEEKS]
+
+
+import java.util.LinkedList;
+
+public class LLDemo2 {
+	public static void main(String[] args) {
+		LinkedList<String> ll = new LinkedList<String>();
+		ll.add("GEEKS");
+		ll.add("FOR");
+		ll.add("GEEKS");
+		ll.add("10");
+		ll.add("20");
+
+		System.out.println("Linkedlist : " + ll);
+		ll.clear();
+		System.out.println("list after clearing all element : " + ll);
+
+		ll.add("GEEKS");
+		ll.add("FOR");
+		ll.add("GEEKS");
+		System.out.println(" After adding elements to empty list : " + ll);
+
+	}
+}
