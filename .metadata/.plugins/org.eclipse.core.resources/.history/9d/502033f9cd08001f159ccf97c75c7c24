@@ -1,0 +1,22 @@
+package collection_prog;
+//java program to iterate HashMap
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class IterateDemo {
+	public static void main(String[] args) {
+
+		Map<String, String> hm = new HashMap<>();
+		hm.put("A", "Angular");
+		hm.put("J", "java");
+		hm.put("P", "Python");
+		hm.put("H", "Hibernate");
+
+		Set<?> entry = hm.entrySet();
+		System.out.println(entry);
+
+	}
+
+}

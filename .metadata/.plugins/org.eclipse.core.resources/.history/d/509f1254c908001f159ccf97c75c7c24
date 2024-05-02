@@ -1,0 +1,23 @@
+package collection_prog;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+//java program to reverse() method.
+
+public class ReverseDemo {
+	public static void main(String[] args) {
+
+		List<String> l = new ArrayList<>();
+
+		l.add("practice");
+		l.add("code");
+		l.add("quiz");
+		l.add("geeksforgeeks");
+		System.out.println(l);
+		Collections.reverse(l);
+		System.out.println(l);
+	}
+
+}
